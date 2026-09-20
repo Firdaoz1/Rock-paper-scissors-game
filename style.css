@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(1, 1, 26);
+  color: white;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#rock, #paper, #scissors{
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+}
+
+#score {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#reset {
+  margin-top: 5%;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2%;
+  color: black;
+  font-weight: bold;
+}
